@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MetaboliteOntologyMapper
+Bundle-SymbolicName: org.pathvisio.mom
+Bundle-Version: 1.0.0
+Bundle-Activator: org.pathvisio.mom.Activator
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework;version="1.5.0"
+Require-Bundle: org.pathvisio.core;bundle-version="3.2.0",
+ org.pathvisio.gui;bundle-version="3.2.0",
+ org.pathvisio.desktop;bundle-version="3.2.0",
+ org.bridgedb;bundle-version="2.1.0",
+ org.bridgedb.mapper.chebi;bundle-version="2.1.0",
+ org.bridgedb.bio;bundle-version="2.1.0"
